@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat3:ital,wght@0,200;0,500;1,900&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat2:ital,wght@0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,900&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat4:ital,wght@0,200;0,500;0,900;1,900&family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body, html {
+    animation: transitionIn 0.75s;
+    height: 100%;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes transitionIn2 {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1f2125;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header .krs {
+        padding: 30px 8%;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,139,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,139,0.8);
+    transform:scale(1.2,1.2);
+}
+
+.cursor {
+    display: inline-block;
+    width: 5px;
+    background-color: white;
+    margin-left: 0.2rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { background-color: white; }
+    50% { background-color: transparent; }
+    100% { background-color: white; }
+}
+
+.intro
+{
+    font-family: "Open Sans";
+    color: #edf0f1;
+    background-color: #FFF;
+    padding: 3rem 25.6rem;
+    height: 90%;
+    background-image: linear-gradient(180deg, #fff 0%, #fff 50%, #262626 50%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about_heading {
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.about_heading-top {
+    animation: transitionIn 3s;
+    height: 5rem;
+    padding-top: 25px;
+    color: #262626;
+}
+
+.about_heading-bottom {
+    color: #fff;
+    height: 5rem;
+    animation: transitionIn2 5s;
+}
+
+h2 {
+    display: block;
+}
+
+div class {
+    display: block;
+}
